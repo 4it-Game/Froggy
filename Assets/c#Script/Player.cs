@@ -12,9 +12,12 @@ public class Player : MonoBehaviour {
 	private float maxJumpPressure;
 	public Image powerImage;
 
+<<<<<<< HEAD
 	public ParticleSystem waterSplit;
 	public float targetTime = 10.0f;
 
+=======
+>>>>>>> f4a816efcd961a6b8528349cfba8479b1a1da973
 	public bool isLevelComplete;
 
 	//reference to star images
@@ -33,7 +36,10 @@ public class Player : MonoBehaviour {
 
 	private Animator anim;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f4a816efcd961a6b8528349cfba8479b1a1da973
 	// Use this for initialization
 	void Start () {
 
@@ -74,8 +80,12 @@ public class Player : MonoBehaviour {
 		}
 
 		if (onGround) {
+<<<<<<< HEAD
 			//if (Input.GetButton ("Jump")) 
 			if (Input.GetMouseButton(0))	
+=======
+			if (Input.GetButton ("Jump")) 
+>>>>>>> f4a816efcd961a6b8528349cfba8479b1a1da973
 			{
 				if (jumpPressure < maxJumpPressure) {
 					jumpPressure += Time.deltaTime * 10f;
@@ -116,7 +126,14 @@ public class Player : MonoBehaviour {
 			onGround = true;
 			anim.SetBool ("onGround",onGround);
 		}
+<<<<<<< HEAD
 
+=======
+		if(col.gameObject.CompareTag("water"))
+		{
+			SceneManager.LoadScene (0);
+		}
+>>>>>>> f4a816efcd961a6b8528349cfba8479b1a1da973
 		if(col.gameObject.CompareTag("Target")){
 			//set the isLevelComplete flag to true if the player hits an object with name Goal
 			isLevelComplete = true;
@@ -144,6 +161,9 @@ public class Player : MonoBehaviour {
 		SceneManager.LoadScene (2);
 
 	}
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> f4a816efcd961a6b8528349cfba8479b1a1da973
 }
