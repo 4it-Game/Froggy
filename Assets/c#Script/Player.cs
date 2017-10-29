@@ -118,17 +118,17 @@ public class Player : MonoBehaviour {
 		if(col.gameObject.CompareTag("Target")){
 			//set the isLevelComplete flag to true if the player hits an object with name Goal
 			isLevelComplete = true;
-			if(totalTime<17){
+			if(totalTime<16){
 				star3.GetComponent<Image>().enabled = true;
 				star2.GetComponent<Image>().enabled = true;
 				star1.GetComponent<Image>().enabled = true;
 			}
-			else if(totalTime<25){
+			else if(totalTime<21){
 				star2.GetComponent<Image>().enabled = true;
 				star1.GetComponent<Image>().enabled = true;
 			}
-			else if(totalTime<30){
-				star1.GetComponent<Image>().enabled = true;
+			else if(totalTime<26){
+				star2.GetComponent<Image>().enabled = true;
 				Debug.Log ("star3");
 			}
 			buttonNext.SetActive(true);
@@ -139,7 +139,7 @@ public class Player : MonoBehaviour {
 	}
 
 	public void NextLevel(){
-		//load the World1 level 
+		//load the 2 level 
 		SceneManager.LoadScene (2);
 
 	}
