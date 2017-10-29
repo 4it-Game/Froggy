@@ -12,12 +12,35 @@ public class Player : MonoBehaviour {
 	private float maxJumpPressure;
 	public Image powerImage;
 
+	public bool isLevelComplete;
+
+	//reference to star images
+	private GameObject star1;
+	private GameObject star2;
+	private GameObject star3;
+
+	//reference to next button
+	private GameObject buttonNext;
+	//timer text reference
+	public Text timerText;
+	//time passed since start of level
+	protected float totalTime = 0f;
+
 	private Rigidbody rb;
 
 	private Animator anim;
 
 	// Use this for initialization
 	void Start () {
+
+		star1 = GameObject.Find("Star1");
+		star2 = GameObject.Find("Star2");
+		star3 = GameObject.Find("Star3");
+
+		buttonNext = GameObject.Find("NextLevel");
+
+		isLevelComplete = false;
+
 		onGround = true;
 		jumpPressure = 0f;
 		minJump = 3f;
@@ -27,12 +50,20 @@ public class Player : MonoBehaviour {
 		powerImage.fillAmount = 0;
 
 		anim = GetComponent<Animator> ();
+
+		//disable the image component of all the star images
+		star1.GetComponent<Image>().enabled = false;
+		star2.GetComponent<Image>().enabled = false;
+		star3.GetComponent<Image>().enabled = false;
+		//disable the next button
+		buttonNext.SetActive(false);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
 		powerImage.fillAmount = jumpPressure / 10f;
+
 
 		if (jumpPressure == 10) {
 			jumpPressure = 0;
@@ -47,7 +78,7 @@ public class Player : MonoBehaviour {
 					jumpPressure = maxJumpPressure;
 				}
 				anim.SetFloat ("jumpPres",jumpPressure + minJump);
-				anim.speed = 0.1f + (jumpPressure / 10f);
+				anim.speed = 0.1f + (jumpPressure / 2f);
 				Debug.Log (jumpPressure);
 			} 
 			else 
@@ -63,6 +94,14 @@ public class Player : MonoBehaviour {
 				}
 			}
 		}
+
+		if (!isLevelComplete) {
+			//update the timer value
+			totalTime += Time.deltaTime;
+			//display the timer value 
+			timerText.text = "TIME: " + totalTime.ToString ();
+			Debug.Log (totalTime);
+		}
 	}
 
 
@@ -76,7 +115,32 @@ public class Player : MonoBehaviour {
 		{
 			SceneManager.LoadScene (0);
 		}
+		if(col.gameObject.CompareTag("Target")){
+			//set the isLevelComplete flag to true if the player hits an object with name Goal
+			isLevelComplete = true;
+			if(totalTime<17){
+				star3.GetComponent<Image>().enabled = true;
+				star2.GetComponent<Image>().enabled = true;
+				star1.GetComponent<Image>().enabled = true;
+			}
+			else if(totalTime<25){
+				star2.GetComponent<Image>().enabled = true;
+				star1.GetComponent<Image>().enabled = true;
+			}
+			else if(totalTime<30){
+				star1.GetComponent<Image>().enabled = true;
+				Debug.Log ("star3");
+			}
+			buttonNext.SetActive(true);
 
+		}
+
+
+	}
+
+	public void NextLevel(){
+		//load the World1 level 
+		SceneManager.LoadScene (2);
 
 	}
 }
