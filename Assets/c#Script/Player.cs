@@ -132,7 +132,6 @@ public class Player : MonoBehaviour {
 				Debug.Log ("star3");
 			}
 			buttonNext.SetActive(true);
-
 		}
 
 
