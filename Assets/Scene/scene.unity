@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 566344790}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -679,6 +679,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerImage: {fileID: 1679444315}
+  waterSplit: {fileID: 198240075924172572, guid: 5ee6672f7b8cd499386c0b73eb27793d,
+    type: 2}
+  targetTime: 10
   isLevelComplete: 0
   timerText: {fileID: 150289035}
 --- !u!95 &566344790
@@ -1061,6 +1064,7 @@ GameObject:
   - component: {fileID: 1290169194}
   - component: {fileID: 1290169190}
   - component: {fileID: 1290169196}
+  - component: {fileID: 1290169197}
   m_Layer: 0
   m_Name: Sea
   m_TagString: water
@@ -1438,6 +1442,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10.000001, y: 2.220446e-16, z: 9.999998}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1290169197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1290169189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0474cc08903bc4b53b8f279b9a8dd115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterDrops: {fileID: 198240075924172572, guid: 5ee6672f7b8cd499386c0b73eb27793d,
+    type: 2}
 --- !u!1 &1475676486
 GameObject:
   m_ObjectHideFlags: 0

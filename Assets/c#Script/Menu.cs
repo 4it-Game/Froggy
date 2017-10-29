@@ -10,6 +10,6 @@ public class Menu : MonoBehaviour {
 
 	public void StartGame(){
 		menuView.SetActive (false);
-		SceneManager.LoadScene(1, LoadSceneMode.Additive);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 }
