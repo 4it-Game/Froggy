@@ -8,6 +8,7 @@ public class waterSplit : MonoBehaviour {
 	bool oneAndOnly = false;
 	public ParticleSystem waterDrops;
 	private Vector3 playerPos;
+	public AudioClip dead;
 	// Use this for initialization
 	void Start () {
 		
@@ -25,6 +26,7 @@ public class waterSplit : MonoBehaviour {
 			if (!oneAndOnly) {
 				playerPos = col.transform.position;
 				col.gameObject.SetActive (false);
+				AudioManager.instance.PlaySound (dead, transform.position);
 				Instantiate (waterDrops, playerPos, Quaternion.identity);
 				oneAndOnly = true;
 				//this.gameObject.SetActive(false);

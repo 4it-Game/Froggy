@@ -12,6 +12,9 @@ public class Player : MonoBehaviour {
 	private float maxJumpPressure;
 	public Image powerImage;
 
+	public AudioClip jump;
+	public AudioClip ground;
+
 	public float targetTime = 10.0f;
 	public bool isLevelComplete;
 
@@ -81,6 +84,7 @@ public class Player : MonoBehaviour {
 				}
 				anim.SetFloat ("jumpPres",jumpPressure + minJump);
 				anim.speed = 0.1f + (jumpPressure / 2f);
+				AudioManager.instance.PlaySound (jump, transform.position);
 				Debug.Log (jumpPressure);
 			} 
 			else 
@@ -112,6 +116,7 @@ public class Player : MonoBehaviour {
 		{
 			onGround = true;
 			anim.SetBool ("onGround",onGround);
+			AudioManager.instance.PlaySound (ground, transform.position);
 		}
 		if(col.gameObject.CompareTag("Target")){
 			//set the isLevelComplete flag to true if the player hits an object with name Goal
