@@ -618,7 +618,6 @@ GameObject:
   - component: {fileID: 566344789}
   - component: {fileID: 566344788}
   - component: {fileID: 566344787}
-  - component: {fileID: 566344790}
   m_Layer: 0
   m_Name: Player
   m_TagString: player
@@ -679,29 +678,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerImage: {fileID: 1679444315}
-  jump: {fileID: 0}
-  drop: {fileID: 0}
-  dead: {fileID: 0}
+  jump: {fileID: 8300000, guid: 5dd97f715bb7e47bab1cd51ebc9b1f64, type: 3}
+  ground: {fileID: 8300000, guid: b38808c0cb1f44c2aae505d2e1eaed83, type: 3}
   targetTime: 10
   isLevelComplete: 0
   timerText: {fileID: 150289035}
---- !u!95 &566344790
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 566344785}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 897640d8bfbb146f09d9cd0953d632b9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &743755435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,6 +1437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterDrops: {fileID: 198240075924172572, guid: 5ee6672f7b8cd499386c0b73eb27793d,
     type: 2}
+  dead: {fileID: 8300000, guid: 2eef41c982e2c4e9cbdee9d1dafb2c53, type: 3}
 --- !u!1 &1475676486
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,9 +1446,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1475676487}
-  - component: {fileID: 1475676490}
-  - component: {fileID: 1475676488}
-  - component: {fileID: 1475676489}
   m_Layer: 0
   m_Name: pObject
   m_TagString: Untagged
@@ -1487,62 +1466,6 @@ Transform:
   m_Father: {fileID: 566344786}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1475676488
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1475676486}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: f3ef4468509e54a57acaa5fa2faccb50, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!95 &1475676489
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1475676486}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ef01c876fa52c45b1b6bbf7731db947f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!33 &1475676490
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1475676486}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1541329308 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4462966950510562, guid: 0193757eff05aa54699c27d502cf604e,
