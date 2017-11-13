@@ -12,6 +12,8 @@ public class Player : MonoBehaviour {
 	private float maxJumpPressure;
 	public Image powerImage;
 
+	public Animator playerAnimator;
+
 	public AudioClip jump;
 	public AudioClip ground;
 
@@ -77,6 +79,7 @@ public class Player : MonoBehaviour {
 			//if (Input.GetButton ("Jump")) 
 			if (Input.GetMouseButton(0))	
 			{
+				
 				if (jumpPressure < maxJumpPressure) {
 					jumpPressure += Time.deltaTime * 10f;
 				} else {
@@ -90,6 +93,7 @@ public class Player : MonoBehaviour {
 			else 
 			{
 				if (jumpPressure > 0f) {
+					playerAnimator.SetTrigger ("isJumping");
 					jumpPressure = jumpPressure + minJump;
 					rb.velocity = new Vector3 (jumpPressure * 0.8f , jumpPressure , 0f);
 					jumpPressure = 0f;
@@ -99,6 +103,10 @@ public class Player : MonoBehaviour {
 					anim.speed = 1f;
 				}
 			}
+		}
+
+		if (transform.position.y < 7.50f) {
+			playerAnimator.SetTrigger ("nearlanding");
 		}
 
 		if (!isLevelComplete) {
