@@ -1,0 +1,606 @@
+fileFormatVersion: 2
+guid: aff1611ed6ccf8345b32f06e392b3ac9
+timeCreated: 1510786115
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: big_toe_L
+    100006: big_toe_L_end
+    100008: big_toe_R
+    100010: big_toe_R_end
+    100012: chest
+    100014: CINEMA_4D_Editor
+    100016: foot_L
+    100018: foot_R
+    100020: forearm_L
+    100022: forearm_R
+    100024: frog
+    100026: head
+    100028: head_end
+    100030: hip_L
+    100032: hip_R
+    100034: jaw
+    100036: jaw_end
+    100038: middle_finger_L
+    100040: middle_finger_L_end
+    100042: middle_finger_R
+    100044: middle_finger_R_end
+    100046: middle_toe_L
+    100048: middle_toe_L_end
+    100050: middle_toe_R
+    100052: middle_toe_R_end
+    100054: neck
+    100056: Root
+    100058: scapula_L
+    100060: scapula_R
+    100062: shin_L
+    100064: shin_R
+    100066: shoulder_L
+    100068: shoulder_R
+    100070: thumb_L
+    100072: thumb_L_end
+    100074: thumb_R
+    100076: thumb_R_end
+    100078: tongue
+    100080: tongue_end
+    400000: //RootNode
+    400002: Armature
+    400004: big_toe_L
+    400006: big_toe_L_end
+    400008: big_toe_R
+    400010: big_toe_R_end
+    400012: chest
+    400014: CINEMA_4D_Editor
+    400016: foot_L
+    400018: foot_R
+    400020: forearm_L
+    400022: forearm_R
+    400024: frog
+    400026: head
+    400028: head_end
+    400030: hip_L
+    400032: hip_R
+    400034: jaw
+    400036: jaw_end
+    400038: middle_finger_L
+    400040: middle_finger_L_end
+    400042: middle_finger_R
+    400044: middle_finger_R_end
+    400046: middle_toe_L
+    400048: middle_toe_L_end
+    400050: middle_toe_R
+    400052: middle_toe_R_end
+    400054: neck
+    400056: Root
+    400058: scapula_L
+    400060: scapula_R
+    400062: shin_L
+    400064: shin_R
+    400066: shoulder_L
+    400068: shoulder_R
+    400070: thumb_L
+    400072: thumb_L_end
+    400074: thumb_R
+    400076: thumb_R_end
+    400078: tongue
+    400080: tongue_end
+    4300000: frog
+    7400000: long_jump_root_motion111111
+    7400002: jump_init
+    7400004: long_jump_loop
+    7400006: long_Jump_End
+    9500000: //RootNode
+    13700000: frog
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: long_jump_root_motion111111
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/chest
+        weight: 1
+      - path: Armature/Root/chest/neck
+        weight: 1
+      - path: Armature/Root/chest/neck/head
+        weight: 1
+      - path: Armature/Root/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/chest/neck/jaw
+        weight: 1
+      - path: Armature/Root/chest/neck/jaw/jaw_end
+        weight: 1
+      - path: Armature/Root/chest/neck/tongue
+        weight: 1
+      - path: Armature/Root/chest/neck/tongue/tongue_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/middle_finger_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/middle_finger_L/middle_finger_L_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/thumb_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/thumb_L/thumb_L_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/middle_finger_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/middle_finger_R/middle_finger_R_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/thumb_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/thumb_R/thumb_R_end
+        weight: 1
+      - path: Armature/Root/hip_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/big_toe_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/big_toe_L/big_toe_L_end
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/middle_toe_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/middle_toe_L/middle_toe_L_end
+        weight: 1
+      - path: Armature/Root/hip_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/big_toe_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/big_toe_R/big_toe_R_end
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/middle_toe_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/middle_toe_R/middle_toe_R_end
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: frog
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump_init
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/chest
+        weight: 1
+      - path: Armature/Root/chest/neck
+        weight: 1
+      - path: Armature/Root/chest/neck/head
+        weight: 1
+      - path: Armature/Root/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/chest/neck/jaw
+        weight: 1
+      - path: Armature/Root/chest/neck/jaw/jaw_end
+        weight: 1
+      - path: Armature/Root/chest/neck/tongue
+        weight: 1
+      - path: Armature/Root/chest/neck/tongue/tongue_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/middle_finger_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/middle_finger_L/middle_finger_L_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/thumb_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/thumb_L/thumb_L_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/middle_finger_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/middle_finger_R/middle_finger_R_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/thumb_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/thumb_R/thumb_R_end
+        weight: 1
+      - path: Armature/Root/hip_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/big_toe_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/big_toe_L/big_toe_L_end
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/middle_toe_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/middle_toe_L/middle_toe_L_end
+        weight: 1
+      - path: Armature/Root/hip_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/big_toe_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/big_toe_R/big_toe_R_end
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/middle_toe_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/middle_toe_R/middle_toe_R_end
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: frog
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: long_jump_loop
+      takeName: CINEMA_4D_Main
+      firstFrame: 4.9
+      lastFrame: 6.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/chest
+        weight: 1
+      - path: Armature/Root/chest/neck
+        weight: 1
+      - path: Armature/Root/chest/neck/head
+        weight: 1
+      - path: Armature/Root/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/chest/neck/jaw
+        weight: 1
+      - path: Armature/Root/chest/neck/jaw/jaw_end
+        weight: 1
+      - path: Armature/Root/chest/neck/tongue
+        weight: 1
+      - path: Armature/Root/chest/neck/tongue/tongue_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/middle_finger_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/middle_finger_L/middle_finger_L_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/thumb_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/thumb_L/thumb_L_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/middle_finger_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/middle_finger_R/middle_finger_R_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/thumb_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/thumb_R/thumb_R_end
+        weight: 1
+      - path: Armature/Root/hip_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/big_toe_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/big_toe_L/big_toe_L_end
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/middle_toe_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/middle_toe_L/middle_toe_L_end
+        weight: 1
+      - path: Armature/Root/hip_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/big_toe_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/big_toe_R/big_toe_R_end
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/middle_toe_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/middle_toe_R/middle_toe_R_end
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: frog
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: long_Jump_End
+      takeName: CINEMA_4D_Main
+      firstFrame: 6.1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/chest
+        weight: 1
+      - path: Armature/Root/chest/neck
+        weight: 1
+      - path: Armature/Root/chest/neck/head
+        weight: 1
+      - path: Armature/Root/chest/neck/head/head_end
+        weight: 1
+      - path: Armature/Root/chest/neck/jaw
+        weight: 1
+      - path: Armature/Root/chest/neck/jaw/jaw_end
+        weight: 1
+      - path: Armature/Root/chest/neck/tongue
+        weight: 1
+      - path: Armature/Root/chest/neck/tongue/tongue_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/middle_finger_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/middle_finger_L/middle_finger_L_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/thumb_L
+        weight: 1
+      - path: Armature/Root/chest/scapula_L/shoulder_L/forearm_L/thumb_L/thumb_L_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/middle_finger_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/middle_finger_R/middle_finger_R_end
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/thumb_R
+        weight: 1
+      - path: Armature/Root/chest/scapula_R/shoulder_R/forearm_R/thumb_R/thumb_R_end
+        weight: 1
+      - path: Armature/Root/hip_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/big_toe_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/big_toe_L/big_toe_L_end
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/middle_toe_L
+        weight: 1
+      - path: Armature/Root/hip_L/shin_L/foot_L/middle_toe_L/middle_toe_L_end
+        weight: 1
+      - path: Armature/Root/hip_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/big_toe_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/big_toe_R/big_toe_R_end
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/middle_toe_R
+        weight: 1
+      - path: Armature/Root/hip_R/shin_R/foot_R/middle_toe_R/middle_toe_R_end
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: frog
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
