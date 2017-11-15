@@ -496,7 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f941b016fab9d4b86a50f6b3cc3628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 2046701998}
 --- !u!1001 &300209264
 Prefab:
   m_ObjectHideFlags: 0
@@ -1049,6 +1049,7 @@ GameObject:
   - component: {fileID: 1290169194}
   - component: {fileID: 1290169190}
   - component: {fileID: 1290169196}
+  - component: {fileID: 1290169197}
   m_Layer: 0
   m_Name: Sea
   m_TagString: water
@@ -1426,6 +1427,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10.000001, y: 2.220446e-16, z: 9.999998}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1290169197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1290169189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0474cc08903bc4b53b8f279b9a8dd115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterDrops: {fileID: 198240075924172572, guid: 5ee6672f7b8cd499386c0b73eb27793d,
+    type: 2}
+  dead: {fileID: 8300000, guid: 2eef41c982e2c4e9cbdee9d1dafb2c53, type: 3}
 --- !u!4 &1541329308 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4462966950510562, guid: 0193757eff05aa54699c27d502cf604e,
@@ -1950,3 +1965,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936065892}
+--- !u!1 &2046701998 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1962825061554980, guid: 6ab1fda31e52248278fe11b1e5b4df62,
+    type: 2}
+  m_PrefabInternal: {fileID: 1591340205}
