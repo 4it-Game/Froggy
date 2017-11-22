@@ -150,7 +150,9 @@ public class Player : MonoBehaviour {
 
 	public void NextLevel(){
 		//load the 2 level 
-		SceneManager.LoadScene (2);
+		if(SceneManager.GetActiveScene ().buildIndex == 1 || SceneManager.GetActiveScene ().buildIndex == 2){
+			SceneManager.LoadScene (2);
+		}
 
 	}
 }
