@@ -1050,6 +1050,11 @@ Prefab:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 54483727220401706, guid: 6ab1fda31e52248278fe11b1e5b4df62,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ab1fda31e52248278fe11b1e5b4df62, type: 2}
   m_IsPrefabParent: 0
